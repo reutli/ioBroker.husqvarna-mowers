@@ -1,0 +1,80 @@
+{
+	"common": {
+		"name": "husqvarna_mowers",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Husqvarna Automowers",
+		"titleLang": {
+			"en": "Husqvarna Automowers",
+			"de": "Husqvarna Automowers",
+			"ru": "Husqvarna Automowers",
+			"pt": "Husqvarna Automowers",
+			"nl": "Husqvarna Automowers",
+			"fr": "Husqvarna Automowers",
+			"it": "Husqvarna Automowers",
+			"es": "Husqvarna Automowers",
+			"pl": "Kosiarki Husqvarna",
+			"zh-cn": "Husqvarna自动割草机"
+		},
+		"desc": {
+			"en": "Steuern der Husqvarna Mähroboter",
+			"de": "Steuern der Husqvarna Mähroboter",
+			"ru": "Steuern der Husqvarna Mähroboter",
+			"pt": "Steuern der Husqvarna Mähroboter",
+			"nl": "Steuern der Husqvarna Mähroboter",
+			"fr": "Steuern der Husqvarna Mähroboter",
+			"it": "Steuern der Husqvarna Mähroboter",
+			"es": "Steuern der Husqvarna Mähroboter",
+			"pl": "Steuern der Husqvarna Mähroboter",
+			"zh-cn": "施泰恩·德·胡斯瓦纳·姆罗伯特"
+		},
+		"authors": [
+			"Michael Reutlinger <post@reutli.de>"
+		],
+		"keywords": [
+			"Husqvarna",
+			"Mähroboter",
+			"Automower",
+			"Mower",
+			"Roboter"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "husqvarna_mowers.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/reutli/ioBroker.husqvarna_mowers/master/admin/husqvarna_mowers.png",
+		"readme": "https://github.com/reutli/ioBroker.husqvarna_mowers/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "garden",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
